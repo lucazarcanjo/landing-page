@@ -1,0 +1,104 @@
+body {margin: 0;
+    font-family: 'Open Sans', sans-serif;
+text-align: center;
+background: #134150;
+background-size: cover;
+]
+}
+
+#topo{
+background: url(images/Homepage-Back.jpg) no-repeat center top;
+}
+.logotipo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteudo {
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.conteudo div{
+
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15;
+}
+
+.conteudo h3, .info h3 {
+    color: #9eee00;
+    text-align: center;
+    font-size: 25px;
+}
+.conteudo p{
+    text-align: center;
+    color:#fff;
+}
+.formulario {
+    background: #67d2fe;
+    border: #134150 solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.formulario input[type="text"],.formulario input[type="email"], .formulario select{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+}
+.formulario label{display:block}
+.formulario input[type="submit"] {
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #134150;
+    border: 200%;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.destaque {
+    color: #fff;
+}
+.aceite {
+    font-size: 14px;
+}
+
+#baixo {
+    background: #003f50;
+    padding: 20px 0;
+    color: #fff;
+}
+.info {
+    text-align: center;
+    color: #fff;
+
+}
+
+.conteudo-bottom {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #9eee00;
+}
+.vantagens {overflow: hidden;}
+.vantagens div {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.vantagens img {display: block;margin: 0 auto;}
+.vantagens {text-align: center; color: #9eee00;}
+
+@media (max-width: 496px){
+    .conteudo div {width:100%;}
+    .vantagens div{width: 100%;}
+}
